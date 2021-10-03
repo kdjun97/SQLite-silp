@@ -10,6 +10,7 @@ public class Main {
 			// SQLite JDBC 쳌!킄!
 			Class.forName("org.sqlite.JDBC");
 			
+			
 			// SQLite 데이터베이스 파일에 연결
 			String dbFile = "myfirst.db";
 			con = DriverManager.getConnection("jdbc:sqlite:" + dbFile);

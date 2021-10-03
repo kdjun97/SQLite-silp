@@ -7,7 +7,7 @@ import java.sql.Statement;
 
 public class ReadData {
 	public static void readData(Connection con) throws SQLException
-	{
+	{ 
 		// 데이터 조회
 		System.out.println("\n*** 데이터 조회 ***");
 		Statement stat1 = con.createStatement();
