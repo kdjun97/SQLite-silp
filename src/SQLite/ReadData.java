@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-
+ 
 public class ReadData {
 	public static void readData(Connection con) throws SQLException
 	{ 
